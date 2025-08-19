@@ -1,4 +1,4 @@
-# Project A — Todo API (Mysql)
+# Project A — Todo API (Postgresql)
 
 Fokus: REST API idiomatik, context, testing, Swagger, pprof, Docker.
 
@@ -15,5 +15,18 @@ Fokus: REST API idiomatik, context, testing, Swagger, pprof, Docker.
 - GORM + pgx (driver) + golang-migrate (migrations)
 - OpenAPI pakai swaggo/swag + fiber-swagger
 - pprof via net/http/pprof di port terpisah
-- Docker Compose (app + mysql)
+- Docker Compose (app + Postgresql)
 - Makefile untuk perintah rutin
+
+# ToDo API — Day 1 (Go 1.21)
+
+## Goal
+- Setup proyek Go (Fiber)
+- Entity `Todo` + validasi (tanpa DB)
+- Unit test table-driven
+- Server minimal + `/health`
+
+## Run
+```bash
+make run
+# curl localhost:8080/health
