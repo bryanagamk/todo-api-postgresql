@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bryanagamk/todo-app-mysql/internal/domain"
+	"github.com/bryanagamk/todo-app-postgresql/internal/domain"
 )
 
 func TestNewTodo_Valid(t *testing.T) {

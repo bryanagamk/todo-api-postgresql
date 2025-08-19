@@ -6,8 +6,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/bryanagamk/todo-app-mysql/internal/config"
-	httpx "github.com/bryanagamk/todo-app-mysql/internal/http"
+	"github.com/bryanagamk/todo-app-postgresql/internal/config"
+	httpx "github.com/bryanagamk/todo-app-postgresql/internal/http"
 )
 
 func main() {

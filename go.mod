@@ -1,4 +1,4 @@
-module github.com/bryanagamk/todo-app-mysql
+module github.com/bryanagamk/todo-app-postgresql
 
 go 1.21.1
 
